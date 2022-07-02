@@ -1,19 +1,13 @@
->>>>>>>>>>>   on chain token URI   <<<<<<<<<<<<<
+>>>>>>>>>>>   on chain NFT   <<<<<<<<<<<<<
 
-proceed as this:
+base64 encode image file 
+base64 json file
+set token URI from smart contract
 
-> get image file from pendrive - no, create new pixel art for this
+>> results:
 
-> convert png file to svg file - to many files does not work
-use remote app - we are storing pngs
+From: https://polygonscan.com/tx/0x3f636c284cb7641a6ff1c69bddd4c3222a454a10c54403a3739c18549eb9367d
 
-> save png in bytes64 format for token metadata
-make python script to set metadata for every Vagabundo
-for image and JSON - convert json into string with '', then encode it. Save 
-the  encoded data into file and pass it to the function tokenURI as URI - call setURI function from
-openzeppelin ERC721URIStorage.sol
-
-> call setTokenURI for every Vagabundo and add onchain metadata
-need to pay fees
-
-> check on Opensea and ask for help if necessary
+Transaction Fee: 0.16632841754045588 MATIC ($0.08)
+MATIC Price: $0.46 / MATIC
+Gas Used by Transaction: 5,290,034 (90.91%)
